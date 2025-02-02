@@ -1,0 +1,85 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #121212;
+    color: #FFFFFF;
+}
+
+.container {
+    background-color: #1E1E1E;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="text"] {
+    width: 91%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #373737;
+    border-radius: 5px;
+    background-color: #2D2D2D;
+    color: #FFFFFF;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+button {
+    padding: 12px;
+    font-size: 16px;
+    background-color: #03DAC6;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #02c1ad;
+}
+
+#qrcode {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.download-btn {
+    display: none;
+    margin-top: 20px;
+    background-color: #008CBA;
+}
+
+.download-btn:hover {
+    background-color: #007399;
+}
+
+@media (max-width: 600px) {
+    .input-group {
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%;
+    }
+}
