@@ -2,7 +2,7 @@
 
 Created by AI. 
 
-HTML
-CSS
-JavaScript
-QRCode.js
+- HTML
+- CSS
+- JavaScript
+- QRCode.js
